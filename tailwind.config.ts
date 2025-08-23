@@ -26,7 +26,8 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					glow: 'hsl(var(--primary-glow))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -35,6 +36,10 @@ export default {
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
 					foreground: 'hsl(var(--destructive-foreground))'
+				},
+				success: {
+					DEFAULT: 'hsl(var(--success))',
+					foreground: 'hsl(var(--success-foreground))'
 				},
 				muted: {
 					DEFAULT: 'hsl(var(--muted))',
@@ -50,7 +55,8 @@ export default {
 				},
 				card: {
 					DEFAULT: 'hsl(var(--card))',
-					foreground: 'hsl(var(--card-foreground))'
+					foreground: 'hsl(var(--card-foreground))',
+					hover: 'hsl(var(--card-hover))'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
@@ -64,9 +70,26 @@ export default {
 				}
 			},
 			borderRadius: {
-				lg: 'var(--radius)',
-				md: 'calc(var(--radius) - 2px)',
-				sm: 'calc(var(--radius) - 4px)'
+				lg: 'var(--radius-lg)',
+				md: 'var(--radius)',
+				sm: 'var(--radius-sm)'
+			},
+			fontSize: {
+				'xs': ['var(--text-xs)', { lineHeight: '1.4' }],
+				'sm': ['var(--text-sm)', { lineHeight: '1.5' }],
+				'base': ['var(--text-base)', { lineHeight: '1.6' }],
+				'lg': ['var(--text-lg)', { lineHeight: '1.6' }],
+				'xl': ['var(--text-xl)', { lineHeight: '1.6' }],
+				'2xl': ['var(--text-2xl)', { lineHeight: '1.4' }],
+				'3xl': ['var(--text-3xl)', { lineHeight: '1.3' }],
+				'4xl': ['var(--text-4xl)', { lineHeight: '1.2' }],
+				'5xl': ['var(--text-5xl)', { lineHeight: '1.1' }],
+			},
+			boxShadow: {
+				'glow': 'var(--shadow-glow)',
+				'sm': 'var(--shadow-sm)',
+				'md': 'var(--shadow-md)',
+				'lg': 'var(--shadow-lg)',
 			},
 			keyframes: {
 				'accordion-down': {
