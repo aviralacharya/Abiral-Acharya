@@ -46,13 +46,15 @@ const Skills = () => {
       color: "text-purple-500"
     },
     {
-      title: "SEO & Analytics",
+      title: "SEO & Digital Marketing",
       icon: <Search className="h-5 w-5" />,
       skills: [
-        { name: "SEO Optimization", level: 85 },
-        { name: "Google Analytics", level: 80 },
-        { name: "Ahrefs", level: 75 },
-        { name: "vidIQ", level: 70 }
+        { name: "Technical SEO", level: 92 },
+        { name: "Local SEO", level: 90 },
+        { name: "Google Analytics 4", level: 88 },
+        { name: "Google Search Console", level: 90 },
+        { name: "SEMrush/Ahrefs", level: 85 },
+        { name: "Core Web Vitals", level: 87 }
       ],
       color: "text-orange-500"
     }

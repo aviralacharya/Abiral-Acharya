@@ -39,19 +39,20 @@ const Hero = () => {
               I'm <span className="text-gradient">Abiral Acharya</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-2">
-              Search Engine Optimizer & Web Developer
+              Leading SEO Expert in Nepal | SEO Consultant & Web Developer
             </p>
             <p className="text-lg text-muted-foreground">
-              From Birtamode, Jhapa • Former Secretary of BCA Association MMC
+              Top SEO Specialist in Birtamode, Jhapa • Helping Businesses Rank #1 on Google
             </p>
           </div>
 
           {/* Description */}
           <div className="mb-12 animate-in fade-in slide-in-from-top duration-700 delay-400">
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-              Motivated BCA student passionate about full-stack development, DevOps, SEO, and cybersecurity. 
-              Skilled in building responsive web apps and performing security testing. Quick learner with strong 
-              leadership and project management skills.
+              Premier SEO consultant and digital marketing expert in Nepal, specializing in advanced SEO strategies, 
+              local SEO optimization, and comprehensive web development. As the best SEO person in Jhapa, I help 
+              businesses achieve top Google rankings through modern techniques including E-A-T optimization, 
+              semantic search, and voice search optimization.
             </p>
           </div>
 

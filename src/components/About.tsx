@@ -43,12 +43,14 @@ const About = () => {
   ];
 
   const expertise = [
-    "Full-Stack Development",
-    "Search Engine Optimization", 
-    "DevOps & Deployment",
-    "Cybersecurity Testing",
-    "Project Management",
-    "Leadership & Team Building"
+    "Advanced SEO & SEM Strategies",
+    "Local SEO for Nepal Businesses", 
+    "Technical SEO & Core Web Vitals",
+    "E-A-T & Content Optimization",
+    "Voice Search & AI SEO",
+    "Google Analytics & Search Console",
+    "Semantic Search Optimization",
+    "Full-Stack Web Development"
   ];
 
   return (
@@ -67,17 +69,19 @@ const About = () => {
           {/* Left Column - Profile Info */}
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-bold mb-4">I Love Building & Optimizing</h3>
+              <h3 className="text-2xl font-bold mb-4">Nepal's Leading SEO Expert & Digital Strategist</h3>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                I am a dedicated Search Engine Optimizer (SEO) and Web Developer with a strong passion for 
-                enhancing online visibility and creating robust web applications. With expertise in both 
-                front-end and back-end development, I help businesses establish their digital presence 
-                while ensuring optimal search engine performance.
+                As the premier SEO expert in Nepal and top SEO consultant in Birtamode, Jhapa, I specialize in 
+                cutting-edge search engine optimization strategies that drive real results. My expertise spans 
+                technical SEO, local SEO for Nepalese businesses, content optimization, and modern SEO trends 
+                including AI-powered search, voice search optimization, and E-A-T (Expertise, Authoritativeness, 
+                Trustworthiness) enhancement.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                My goal is to create data-driven, result-oriented solutions that improve website performance, 
-                boost engagement, and ensure long-term success in the digital landscape. I stay updated with 
-                the latest technologies and industry trends to implement effective strategies.
+                I combine advanced SEO knowledge with full-stack web development skills to create high-performing, 
+                search-optimized websites. My data-driven approach focuses on Core Web Vitals, semantic search 
+                optimization, and implementing Google's latest algorithm updates to ensure sustainable rankings and 
+                increased organic traffic for businesses across Nepal.
               </p>
             </div>
 
