@@ -9,8 +9,8 @@ const Blog = () => {
       title: "Complete Guide to Technical SEO in 2025",
       excerpt: "Master the fundamentals of technical SEO including Core Web Vitals, schema markup, and crawlability optimization for better search rankings.",
       category: "SEO",
-      readTime: "8 min read",
-      date: "2024-01-15",
+      readTime: "5 min read",
+      date: "2025-05-15",
       featured: true,
       tags: ["SEO", "Technical", "Web Performance"]
     },
