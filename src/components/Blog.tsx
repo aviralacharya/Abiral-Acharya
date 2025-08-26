@@ -195,7 +195,7 @@ const Blog = () => {
               <Button 
                 size="lg" 
                 className="gradient-primary text-white hover:shadow-glow transition-smooth"
-                onClick={() => window.open('http://blog.aviralacharya.com.np/', '_blank')}
+                onClick={() => window.open('https://blog.aviralacharya.com.np/', '_blank')}
               >
                 <ExternalLink className="h-4 w-4 mr-2" />
                 Visit Full Blog
