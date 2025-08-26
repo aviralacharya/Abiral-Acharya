@@ -6,7 +6,7 @@ import { Calendar, Clock, ExternalLink, BookOpen, TrendingUp } from "lucide-reac
 const Blog = () => {
   const blogPosts = [
     {
-      title: "Complete Guide to Technical SEO in 2024",
+      title: "Complete Guide to Technical SEO in 2025",
       excerpt: "Master the fundamentals of technical SEO including Core Web Vitals, schema markup, and crawlability optimization for better search rankings.",
       category: "SEO",
       readTime: "8 min read",
