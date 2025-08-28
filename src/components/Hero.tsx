@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowDown, Download, Mail, Github, Linkedin, Globe } from "lucide-react";
-import heroBg from "@/assets/hero-bg.jpg";
+// import heroBg from "@/assets/hero-bg.jpg";
 
 const Hero = () => {
   const scrollToSection = (href: string) => {
@@ -16,7 +16,7 @@ const Hero = () => {
       <div 
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: `url(${heroBg})`,
+          // backgroundImage: `url(${heroBg})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'
