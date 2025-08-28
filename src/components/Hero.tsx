@@ -30,7 +30,7 @@ const Hero = () => {
         <div className="text-center max-w-4xl mx-auto">
           {/* Greeting */}
           <div className="mb-6 animate-in fade-in slide-in-from-top duration-700">
-            <span className="text-lg text-muted-foreground font-medium">Hey there, 👋</span>
+            {/* <span className="text-lg text-muted-foreground font-medium">Hey there, 👋</span> */}
           </div>
 
           {/* Name & Title */}
