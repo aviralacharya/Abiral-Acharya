@@ -16,35 +16,28 @@ const Skills = () => {
     {
       title: "Programming Languages",
       icon: <Code className="h-6 w-6" />,
-      skills: ["JavaScript", "TypeScript", "Python", "PHP"],
+      skills: ["JavaScript", "TypeScript", "Python", "PHP", "HTML5", "CSS3"],
       gradient: "from-blue-500/10 to-cyan-500/10",
       iconColor: "text-blue-600"
-    },
-    {
-      title: "Web Technologies",
-      icon: <Code className="h-6 w-6" />,
-      skills: ["HTML5", "CSS3"],
-      gradient: "from-green-500/10 to-emerald-500/10",
-      iconColor: "text-green-600"
     },
     {
       title: "Frameworks & Tools", 
       icon: <Settings className="h-6 w-6" />,
       skills: ["React.js", "Node.js", "Express.js", "Django", "Bootstrap", "Tailwind CSS"],
-      gradient: "from-purple-500/10 to-violet-500/10",
-      iconColor: "text-purple-600"
+      gradient: "from-green-500/10 to-emerald-500/10",
+      iconColor: "text-green-600"
     },
     {
       title: "Databases",
       icon: <Database className="h-6 w-6" />,
       skills: ["MySQL", "PostgreSQL", "MongoDB", "SQLite", "Firebase", "Supabase"],
-      gradient: "from-indigo-500/10 to-blue-500/10",
-      iconColor: "text-indigo-600"
+      gradient: "from-purple-500/10 to-violet-500/10",
+      iconColor: "text-purple-600"
     },
     {
       title: "SEO & Digital Marketing",
       icon: <Search className="h-6 w-6" />,
-      skills: ["Technical SEO", "Local SEO (Nepal-focused)", "Video SEO", "Google Analytics 4", "Google Search Console", "Core Web Vitals", "SEMrush"],
+      skills: ["Technical SEO", "Local SEO Nepal", "Google Analytics 4", "Search Console", "Core Web Vitals", "SEMrush"],
       gradient: "from-orange-500/10 to-amber-500/10",
       iconColor: "text-orange-600"
     },
@@ -58,9 +51,9 @@ const Skills = () => {
     {
       title: "Design & Content",
       icon: <Palette className="h-6 w-6" />,
-      skills: ["UI/UX Design", "Content Strategy", "WordPress", "Responsive Design", "Brand Development"],
-      gradient: "from-teal-500/10 to-cyan-500/10",
-      iconColor: "text-teal-600"
+      skills: ["UI/UX Design", "Content Strategy", "WordPress", "Responsive Design", "Brand Development", "Video SEO"],
+      gradient: "from-indigo-500/10 to-blue-500/10",
+      iconColor: "text-indigo-600"
     }
   ];
 
@@ -92,10 +85,10 @@ const Skills = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Technical <span className="text-gradient">Expertise</span>
+            My <span className="text-gradient">Skills</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Hands-on experience in web development, SEO, digital marketing, and security testing.
+            Technical expertise in development, SEO, and digital marketing gained through hands-on experience
           </p>
         </div>
 
