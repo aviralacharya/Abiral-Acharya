@@ -1,6 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { MapPin, GraduationCap, Award, Phone, Mail, Globe } from "lucide-react";
+import profilePhoto from "@/assets/profile-photo.jpg";
 
 const About = () => {
   const highlights = [
@@ -68,6 +69,17 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Column - Profile Info */}
           <div className="space-y-8">
+            {/* Profile Photo */}
+            <div className="flex justify-center lg:justify-start">
+              <div className="relative">
+                <img 
+                  src={profilePhoto} 
+                  alt="Abiral Acharya - SEO Expert & Web Developer" 
+                  className="w-48 h-48 rounded-full object-cover border-4 border-primary/20 shadow-elegant"
+                />
+                <div className="absolute inset-0 rounded-full bg-gradient-primary opacity-20"></div>
+              </div>
+            </div>
             <div>
               <h3 className="text-2xl font-bold mb-4">Nepal's Leading SEO Expert & Digital Strategist</h3>
               <p className="text-muted-foreground leading-relaxed mb-6">

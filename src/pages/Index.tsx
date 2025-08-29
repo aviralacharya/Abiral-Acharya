@@ -5,6 +5,7 @@ import SEOServices from "@/components/SEOServices";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import Experience from "@/components/Experience";
+import Gallery from "@/components/Gallery";
 import Blog from "@/components/Blog";
 import RecentActivities from "@/components/RecentActivities";
 import Contact from "@/components/Contact";
@@ -22,6 +23,7 @@ const Index = () => {
         <Skills />
         <Projects />
         <Experience />
+        <Gallery />
         <RecentActivities />
         <Blog />
         <Contact />
