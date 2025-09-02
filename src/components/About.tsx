@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { MapPin, GraduationCap, Award, Phone, Mail, Globe } from "lucide-react";
-import profilePhoto from "@/assets/profile-photo.jpg";
+import profilePhoto from "@/assets/SEO-Person-in-Nepal-Abiral-Acharya.jpg";
 
 const About = () => {
   const highlights = [
